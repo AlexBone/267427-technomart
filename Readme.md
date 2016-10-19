@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Константин Алексеенко](https://up.htmlacademy.ru/htmlcss/15/user/267427).
-* Наставник: [Евгений Котов] (https://htmlacademy.ru/profile/id25083).
+* Наставник: [Евгений Котов] (https://up.htmlacademy.ru/htmlcss/15/user/25083).
 
 ---
 
