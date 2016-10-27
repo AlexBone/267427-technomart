@@ -3,26 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог Техномарт</title>
+      <link rel="stylesheet" type="text/css" href="css/catalog.css"/>
   </head>
   <body>
     <header class="main-header">
       <div class="container">
         <div class="menuline">
-          <div class="logo-top">
-            <a href="#">
-              <img width="" height="" alt="Логотип" src="http://placehold.it/181x39">
-            </a>
-          </div>
-          <div id="search">
+            <a href="#"><img src="img/up-logo.png"></a>
+          <div class="search">
             <form action="goods">
-              <input class="button-search" type="submit">
-              <input class="input-search" type="text" placeholder="Поиск:">
+              <input type="image" src="img/icon-search.png" alt="search">
+              <p>Поиск:</p><input class="input-search" type="text" placeholder="поиск:">
             </form>
           </div>
-          <div><span><img src="http://placehold.it/15x15"></span>Закладки: 0</div>
-          <div><span><img src="http://placehold.it/15x15"></span>Корзина: 10</div>
+          <div><span><img src="img/icon-bookmark.png"></span>Закладки: 0</div>
+          <div><span><img src="img/icon-basket.png"></span>Корзина: 0</div>
           <div><a href="#">Оформить заказ</a></div>
         </div>
+      </div>
         <div class="headshot">
           <section class="info">
             <p> Интернет-магазин
@@ -31,11 +29,11 @@
             <p>
           </section>
           <div class="contact">
-            <p class="phone"><img src="http://placehold.it/35x35">+7 (812) 555-05-55</p>
+            <p class="phone"><img src="img/icon-phone.png">+7 (812) 555-05-55</p>
             <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
           </div>
           <div class="user-block">
-            <a href="#"><img src="http://placehold.it/200x29"></a>
+            <p><img src="img/icon-user.png">Равшан Джамшутович<a href="#"><img src="img/icon-logout.png"></a></p>
             <p><a href="#">Мои заказы</a> &bull; <a href="#">Личный кабинет</a></p>
           </div>
         </div>
@@ -55,9 +53,9 @@
     <main class="container">
       <div class="steps">
         <ul>
-          <li><a href="#"><img src="http://placehold.it/35x35"</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Инструмент</a></li>
+          <li><a href="#"><img src="img/icon-home.png"></a></li>
+          <li><a href="#">Каталог</a><img src="img/icon-right.png"></li>
+          <li><a href="#">Инструмент</a><img src="img/icon-right.png"></li>
           <li>Перфораторы</li>
         </ul>
       </div>
@@ -91,20 +89,52 @@
         </form>
       </section>
       <section class="goods">
-        <div><a href="#"><img src="http://placehold.it/164x236"></a></div>
-        <div><a href="#"><img src="http://placehold.it/164x236"></a></div>
-        <div><!-- в css: background-image-->
-          <form>
-            <button>qqq</button>
-            <button>www</button>
-          </form>
+        <div class="1">
+          <img src="img/perforator-1.jpg">
+          <p>Перфоратор BOSCH<br/> BFG 3000</p>
+          <p><s>22500</s> Р.</p><p>15500 Р.</p>
         </div>
-        <div><a href="#"><img src="http://placehold.it/164x236"></a></div>
-        <div><a href="#"><img src="http://placehold.it/164x236"></a></div>
-        <div><a href="#"><img src="http://placehold.it/164x236"></a></div>
-        <div><a href="#"><img src="http://placehold.it/164x236"></a></div>
-        <div><a href="#"><img src="http://placehold.it/164x236"></a></div>
-        <div><a href="#"><img src="http://placehold.it/164x236"></a></div>
+        <div class="2">
+          <img src="img/perforator-2.jpg">
+          <p>Перфоратор BOSCH<br/> BFG 6000</p>
+          <p><s>30500 Р.</s></p><p>25500 Р.</p>
+        </div>
+        <div class="3">
+          <button type="button">КУПИТЬ</button>
+          <button type="button">В закладки</button>
+          <p>Перфоратор BOSCH<br/> BFG 2000</p>
+          <p>12500 Р.</p>
+        </div>
+        <div class="4">
+          <img src="img/perforator-2.jpg">
+          <p>Перфоратор BOSCH<br/> BFG 3000</p>
+          <p><s>22500 Р.</s></p><p>15500 Р.</p>
+        </div>
+        <div class="5">
+          <img src="img/perforator-2.jpg">
+          <p>Перфоратор BOSCH<br/> BFG 6000</p>
+          <p><s>30500 Р.</s></p><p>25500 Р.</p>
+        </div>
+        <div class="6">
+          <img src="img/perforator-2.jpg">
+          <p>Перфоратор BOSCH<br/> BFG 2000</p>
+          <p>12500 Р.</p>
+        </div>
+        <div class="7">
+          <img src="img/perforator-2.jpg">
+          <p>Перфоратор BOSCH<br/> BFG 3000</p>
+          <p><s>22500 Р.</s></p><p>15500 Р.</p>
+        </div>
+        <div class="8">
+          <img src="img/perforator-2.jpg">
+          <p>Перфоратор BOSCH<br/> BFG 6000</p>
+          <p><s>30500 Р.</s></p><p>25500 Р.</p>
+        </div>
+        <div class="9">
+          <img src="img/perforator-2.jpg">
+          <p>Перфоратор BOSCH<br/> BFG 2000</p>
+          <p>12500 Р.</p>
+        </div>
       </section>
       <div class="down-nav">
         <ul>
@@ -128,7 +158,7 @@
       <section class="foot-up">
         <div class="logo-dwn">
           <a href="#">
-            <img width="" height="" alt="Логотип" src="http://placehold.it/183x55">
+              <img src="img/dwn-logo.png">
           </a>
         </div>
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br/>
@@ -152,12 +182,12 @@
         </div>
       </section>
       <section  class="foot-down">
-        <p>&copy2010-2016 Компания "Техномарт"<br/>
+        <p>&copy;2010-2016 Компания "Техномарт"<br/>
            Все права защищены</p>
         <div class="social">
-          <a class="btn-vk" href="#">Вконтакте</a>
-          <a class="btn-fb" href="#">Фейсбук</a>
-          <a class="btn-inst" href="#">Инстаграм</a>
+          <a class="btn-vk" href="#"><img src="img/icon-vk.png"></a>
+          <a class="btn-fb" href="#"><img src="img/icon-facebook.png"></a>
+          <a class="btn-inst" href="#"><img src="img/icon-instagramm.png"></a>
         </div>
           <p>Обратная связь:<br/><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
           <p>Разработано-<br/><a href="#">htmlacademy.ru</a></p>
