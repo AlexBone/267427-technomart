@@ -1,11 +1,264 @@
 body {
   font: 17px Cuprum;
   line-height: 24px;
-  color: #0000;
-  background-color: #ABABAB;
+  color: #000000;
+  background-color: #ffffff;
+  min-width: 960px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1 {
+  font: Bold 36px Cuprum;
+}
+h2 {
+  font: Regular 30px Cuprum;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+header {
+  background-color: #f1f5f7;
+  padding-bottom: 60px;
+  color: red;
+}
+.menuline {
+  margin-bottom: 0;
+  height: 42px;
+  background-color: #293449;
+}
+.container {
+ margin: 0 auto;
+ padding-left: 10px;
+ padding-right: 10px;
+ width: 960px;
+}
+.breadcrumbs li {
+  display: inline-block;
+}
+.breadcrumbs a {
+  color: #000000;
+}
+.m-line-element {
+  display: inline-block;
+  vertical-align: middle;
+}
+.m-line-element:last-child {
+  background-color: #63a63e;
+}
+.icon-search, .search, .input-search {
+  display: inline-block;
+  vertical-align: middle;
+}
+.headshot {
+
+  min-height: 158px;
+  margin: 0 auto;
+  padding-top: 46px;
+  text-align: center;
+}
+.info {
+  text-align: left;
+}
+.contact {
+  margin: 0 70px;
+}
+.sectn-block {
+  display: inline-block;
+
+}
+.user-block p {
+  display: inline;
+}
+nav {
+  height: 60px;
+  background-color: #32425c;
+  padding-top: 20px;
+  text-align: center;
+}
+nav ul {
+
+  margin-top:
+}
+nav ul li {
+  display: inline;
+}
+.promo {
+  height: 450px;
+  margin-bottom: 52px;
+}
+.promo-card {
+  width: 300px;
+  height: 123px;
+  text-align: center;
+  background-color: #f6b22d;
+}
+.card1 {
+  margin-right: 20px;
+}
+.card1, .card2, .slider {
+  float: left;
+  margin-top: 20px;
+}
+.card3, .card4, .card5 {
+  float: right;
+  margin-top: 20px;
 }
 .slider {
   background: url(../img/worker.png) no-repeat;
   width: 620px;
   height: 266px;
+}
+.line {
+  margin-bottom: 20px;
+  height: 89px;
+  background-color: #f7f3ec;
+  color: #32425c;
+}
+.line h2 {
+  float: left;
+  margin-top: 33px;
+  margin-left: 30px;
+}
+.line p {
+  float: right;
+  margin: 25px 24px 26px;
+  padding-top: 14px;
+  height: 38px;
+  width: 253px;
+  background-color: #ee3643;
+  text-align: center;
+  font-size: 14px;
+}
+.goods {
+  margin-bottom: ;
+  font-size: 0;
+}
+
+.perf {
+  width: 218px;
+  height: 316px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid grey;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: 24px;
+}
+.perf:last-child {
+  margin-right: 0;
+}
+.makers {
+  margin-bottom: 65px;
+  font-size: 0;
+}
+.brand {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+  margin-right: 18px;
+  width: 217;
+  height: 142;
+  border: 1px solid grey;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  background-color: #FFFFFF;
+}
+.brand:nth-child(n4), .brend:nth-child(n8) {
+  margin-left: 20px;
+}
+.brand img {
+  display: block;
+  margin: auto;
+}
+.services, .about {
+  margin: 0 auto;
+  padding-top: 65px;
+  min-height: 522px;
+  width: ;
+  color: #32425C;
+  background-color: #F2F6F8;
+}
+.services p, .about p {
+  font-size: 13px;
+}
+.services .container {
+  background-image: url("../img/delivery.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.services h2, .about h2 {
+  margin-bottom: 40px;
+}
+.services p {
+  margin-bottom: 77px;
+}
+.service-menu {
+  float: left;
+  margin-top:
+  margin-right: 170px;
+}
+.service-menu p {
+  margin: 10px;
+}
+.delivery {
+ margin-left: 170px;
+ padding: 0;
+}
+.information {
+  padding-top: 82px;
+  min-height: 536px;
+  color: #000000;
+}
+.information-left {
+  float: left;
+}
+.information-right {
+  float: right;
+}
+footer {
+  background-color: #32425C;
+}
+.foot-up {
+  min-height: 193px;
+}
+.logo-dwn {
+  float: left;
+}
+.adress {
+  margin-top: 32px;
+}
+.item {
+  float: right;
+  margin-top: 45px;
+}
+.item ul li {
+  display: inline;
+  margin-left: 60px;
+}
+.foot-down {
+  padding-top: 40px;
+  min-height: 107px;
+  background-color: #293449;
+  text-align: left;
+}
+.copyright {
+  float: left;
+  margin-right: 170px;
+}
+.social {
+  float: left;
+  margin-right: 120px;
+}
+.feedback {
+  float: left;
+}
+.develop {
+  float: right;
 }
