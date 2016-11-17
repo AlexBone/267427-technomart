@@ -87,7 +87,6 @@
         </div>
         <section class="goods container">
           <div class="perf">
-            <div class="flag new-flag">new</div>
             <div class="actions">
               <a href="#" class="buy">Купить</a>
               <a href="#" class="in-bookmark">В закладки</a>
@@ -102,22 +101,35 @@
               <a href="#" class="buy">Купить</a>
               <a href="#" class="in-bookmark">В закладки</a>
             </div>
+            <div class="actions">
+              <a href="#" class="buy">Купить</a>
+              <a href="#" class="in-bookmark">В закладки</a>
+            </div>
             <img src="img/perforator-2.jpg" alt="">
-            <p class="title">Перфоратор BOSCH<br/>BFG 9000</p>
-            <p class="discount">32500 Р.</p>
-            <p class="price">25500 Р.</p>
+            <p class="title">Перфоратор BOSCH<br/>BFG 3000</p>
+            <p class="discount">22500 Р.</p>
+            <p class="price">15500 Р.</p>
           </div>
           <div class="perf">
+            <div class="actions">
+              <a href="#" class="buy">Купить</a>
+              <a href="#" class="in-bookmark">В закладки</a>
+            </div>
             <img src="img/perforator-3.jpg" alt="">
-              <p class="title">Перфоратор BOSCH<br/>BFG 9000</p>
-              <p class="discount">32500 Р.</p>
+              <p class="title">Перфоратор BOSCH<br/>BFG 6000</p>
+              <p class="discount">30500 Р.</p>
               <p class="price">25500 Р.</p>
           </div>
-          <div class="perf">
+          <div class="perf new">
+            <div class="flag new-flag">new</div>
+            <div class="actions">
+              <a href="#" class="buy">Купить</a>
+              <a href="#" class="in-bookmark">В закладки</a>
+            </div>
             <img src="img/perforator-2.jpg" alt="">
-            <p class="title">Перфоратор BOSCH<br/>BFG 9000</p>
-            <p class="discount">32500 Р.</p>
-            <p class="price">25500 Р.</p>
+            <p class="title">Перфоратор BOSCH<br/>BFG 2000</p>
+            <p class="discount">30500 Р.</p>
+            <p class="price">12500 Р.</p>
           </div>
         </section>
         <div class="line container">
@@ -174,8 +186,9 @@
             <h2>Контакты</h2>
             <p>Вы можете забрать товар сами,<br/>
                заехав в наш офис:</p>
-            <a href="#"><img src="img/map.png" alt=""></a>
-            <p><a class="info-link style-btn" href="#">Заблудились? Напишите нам!</a></p>
+            <a href="https://www.google.com.ua/maps/place/%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F+%D0%9A%D0%BE%D0%BD%D1%8E%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D1%83%D0%BB.,+19,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+%D0%A0%D0%BE%D1%81%D1%96%D1%8F,+191186/@59.9387969,30.3208946,17z/data=!3m1!4b1!4m5!3m4!1s0x4696310fca5ba729:0xea9c53d4493c879f!8m2!3d59.9387942!4d30.3230833" target ="blank">
+              <img src="img/map-sm.png" alt=""></a>
+            <p><a class="info-link style-btn write-us" href="#">Заблудились? Напишите нам!</a></p>
           </div>
         </section>
     </main>
@@ -207,7 +220,7 @@
           </div>
         </section>
         <section  class="foot-down">
-          <div class="container">
+          <div class="container clearfix">
             <p class="copyright">&copy; 2010-2016 Компания &laquo;Техномарт&raquo;<br/>
                Все права защищены</p>
             <div class="social">
@@ -220,5 +233,45 @@
           </div>
         </section>
     </footer>
+
+      <div class="modal-content">
+        <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+        <form class="mail-form" action="https://echo.htmlacademy.ru" method="post">
+          <div class="positioner">
+            <div class="your-name">
+              <p>Ваше имя:</p>
+              <input type="text">
+            </div>
+            <div class="your-email">
+              <p>Ваш e-mail:</p>
+              <input type="email">
+            </div>
+            <div class="your-text">
+              <p>Текст письма:</p>
+              <textarea rows="10" cols="45" name="text"></textarea>
+          </div>
+            </div>
+          <div class="both-btn">
+            <button class="btn" type="submit">Отправить</button>
+          </div>
+        </form>
+      </div>
+      <script>
+         /* Форма связи:*/
+        var write = document.querySelector(".write-us");
+        var popup = document.querySelector(".modal-content");
+        var close = popup.querySelector(".modal-content-close");
+
+        write.addEventListener("click", function(event) {
+           event.preventDefault();
+           popup.classList.add("modal-content-show");
+      });
+
+      close.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.remove("modal-content-show");
+      });
+
+      </script>
   </body>
 </html>
