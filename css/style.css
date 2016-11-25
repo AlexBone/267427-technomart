@@ -881,7 +881,7 @@ input[type="radio"]:checked + span {
   border: 1px solid #e5e5e5;
 }
 .goods .last-perf,
-.goods .perf:last-child {
+.catalog-items .perf:nth-child(3n) {
   margin-right: 0;
 }
 .new .discount {
@@ -1272,10 +1272,9 @@ footer {
 /* Дальше модаолчка*/
 
 .modal-content {
-  /*position: absolute;
-  top: 2700px;
-  left: 50%;*/
   position: absolute;
+  top: 2550px;
+  left: 50%;
   display: none;
   width: 620px;
   margin-left: -230px;
@@ -1374,4 +1373,62 @@ footer {
 }
 .modal-content-close::after {
   transform: rotate(-45deg);
+}
+.modal-cart {
+  position: absolute;
+  top: 410px;
+  left: 50%;
+  display: none;
+  width: 620px;
+  margin-left: -230px;
+  color: #000000;
+  display: none;
+  background: #fff;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+  border-top: 7px solid #ee3643;
+}
+.modal-cart-show {
+  display: block;
+  z-index: 40;
+}
+.modal-cart .checked {
+  display: inline-block;
+  vertical-align: top;
+  width: 65px;
+  height: 65px;
+  margin-top: 47px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  background: #63a63e url("../img/checked.svg") no-repeat 15px 20px;
+  border-radius: 33px;
+}
+.modal-cart  p {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 68px;
+  margin-left: 35px;
+  font-size: 30px;
+}
+.modal-cart form {
+  height: 110px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.modal-cart .btn {
+  width: 220px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 34px;
+  font-size: 14px;
+  font-family: 'Cuprum', 'Arial', sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ee3643;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.modal-cart .continue {
+  margin-right: 0;
+  color: #000000;
+  background-color: #ffffff;
 }
